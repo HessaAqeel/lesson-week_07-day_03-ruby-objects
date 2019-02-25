@@ -325,6 +325,39 @@ end
 
 Update your `introduction` method to leverage Ruby's implicit `self`.
 
+## Ruby Instance Method vs Class Method
+
+Instance methods are invoked on an instance of a class or an object like `drive`, but Ruby also has class methods which can be invoked on the class itself.  `.new` is a class method, we use it by called `Car.new` and not `celica.new`.
+
+To define a class method, we use `self.` before the method name.
+```rb
+class Airplane
+  
+  # instance method
+  def fly
+    puts 'vroom'
+  end
+
+  # class method
+  def self.inventor
+    puts "The Wright Brothers"
+  end
+end
+
+# Class method
+Airplane.inventor # The Wright Brothers
+
+# Class method
+plane = Airplane.new
+
+# Instance method
+plane.fly # vroom
+```
+
+### Lab: Ruby Class Methods
+
+Update your `Person` class to have a class method named `planet` that `puts "Earth"`.
+
 ## Additional Resources
 
 - http://ruby-for-beginners.rubymonstas.org/writing_classes.html
