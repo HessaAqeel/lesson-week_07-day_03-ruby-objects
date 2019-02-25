@@ -323,4 +323,9 @@ end
 
 ### Lab: Ruby `self`
 
-Update your 
+Update your `introduction` method to leverage Ruby's implicit `self`.
+
+## Additional Resources
+
+- http://ruby-for-beginners.rubymonstas.org/writing_classes.html
+- http://www.zenruby.info/2016/06/ruby-classes.html
