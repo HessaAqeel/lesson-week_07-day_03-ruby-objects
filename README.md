@@ -6,10 +6,12 @@ By the end of this, developers should be able to:
 - Define a class for an object in Ruby that assigns attributes in the initialize constructor.
 - Create an instance of an object in Ruby using .new.
 - Write setter and getter instance methods for Ruby objects.
-
-In JavaScript (JS), there's no distinction between Objects and key-value pairs (a.k.a. hashes a.k.a. associative arrays), and in fact, JS objects look and behave similarly to Ruby hashes. However, objects in Ruby behave differently from objects in JS.
+- Invoke a getter or setter method using self.
+- Contrast defining and invoking class methods with instance methods.
 
 ## Introduction
+
+In JavaScript (JS), there's no distinction between Objects and key-value pairs (a.k.a. hashes a.k.a. associative arrays), and in fact, JS objects look and behave similarly to Ruby hashes. However, objects in Ruby behave differently from objects in JS.
 
 Why does the word 'object' refer to two kinds of different things, depending on whether we're talking about Ruby or JavaScript? The answer is that 'object' is actually a much more generic term, referring to an abstraction that represents both data and behavior. In the case of object-oriented programming languages 'object' means a self-contained collection of properties and methods.
 
